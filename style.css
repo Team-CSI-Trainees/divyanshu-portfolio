@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+}
+#navbar a:hover{
+    color: black;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(198, 176, 176);
+    color: white;
+}
+li{
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
