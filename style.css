@@ -21,3 +21,36 @@ li{
     font-size: 1.2rem;
     font-weight: bold;
 }
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 2px solid black;
+}
+.h-secondary{
+    font-size: 2.8rem;
+    text-align: center;
+    
+}
+.content{
+font-size: 1.5rem;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+
+
+}
+#school{
+    border: 2px solid red;
+    padding: 1rem;;
+}
+#college{
+    border:2px solid yellowgreen;
+    padding: 1rem;
+}
