@@ -54,6 +54,10 @@ text-align: center;
     border: 2px solid red;
     padding: 1rem;;
 }
+#hidemenu{
+    display: flex;
+    flex-direction:row ;
+}
 #college{
     border:2px solid yellowgreen;
     padding: 1rem;
