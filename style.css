@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 html{
-scroll-behaviour:smooth;
+    scroll-behavior: smooth;
 }
 body::before{
     content: "";
@@ -15,7 +15,7 @@ body::before{
     position: absolute;
     z-index: -2;
     opacity: 0.4;
-    background: url("photo_2022-10-01_17-38-08.jpg") no-repeat center center/cover;
+    background: url("/photo_2022-10-01_17-38-08.jpg") no-repeat center center/cover;
 }
 body{
     position: relative;
@@ -66,9 +66,9 @@ li{
     display: flex;
     flex-direction: column;
     width:100%;
-    border:2px solid red;
+    border:2px solid black;
     border-radius: 5px ;
-    box-shadow: 5px 5px red;
+    box-shadow: 5px 5px black;
 }
 #middle{
     display: flex;
@@ -112,7 +112,12 @@ li{
     display: flex;
     align-items: center;
     margin-left: 2rem;
-}
+    /* color:rgb(58, 40, 108); */
+    font-family: 'Roboto Condensed', sans-serif;
+   }
+
+    
+
 
 .content{
 font-size: 1.5rem;
@@ -133,10 +138,7 @@ font-family: 'Bree Serif', serif;
     margin:2rem 0;
     margin-top:1rem ;
     background-color: beige;
-
-
 }
-
 a{
     text-decoration: none;
 }
@@ -155,16 +157,16 @@ a{
     margin: 1rem;
     justify-content: space-between;
 }
-#formgroup .btn,.btn{
-    display: flex;
+.btn{
     padding:0.5rem;
     font-size: 1.2rem;
     border-radius: 5px;
     background-color:brown;
     color: white;
     border: 1px solid black;
+    cursor: pointer;
 }
-#fromgroup .btn:hover,.btn:hover{
+.btn:hover{
     background-color: red;
 }
 .skills{
@@ -203,18 +205,41 @@ a{
 #link{
     display: flex;
     justify-content: center;
-
 }
 .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:0rem;
+    justify-content: space-evenly;
+}
+.links img{
     width:50px;
     margin:10px;
     border-radius: 10px;
+    font-size:1rem;
 }
+.links:hover{
+    font-size: 1rem;
+    transform:translateZ(120px);
+}
+#link a{
+    color:black;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+  
 #formgroup{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: 2rem;
+    border:2px solid;
+    box-shadow:5px 5px black;
+    margin-bottom: 50px;
 }
 #formgroup input,textarea{
     padding: 5px;
@@ -293,8 +318,11 @@ footer{
     .content{
         font-size: 1.5rem;
     }
+   
     .main{
-        font-size: 2.9rem;
+        font-size: 3rem;
+        display: block;
+        margin: auto;
     }
 }
     
