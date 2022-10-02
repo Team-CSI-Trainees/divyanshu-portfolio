@@ -15,7 +15,7 @@ body::before{
     position: absolute;
     z-index: -2;
     opacity: 0.4;
-    background: url("/photo_2022-10-01_17-38-08.jpg") no-repeat center center/cover;
+    background: url("photo_2022-10-01_17-38-08.jpg") no-repeat center center/cover;
 }
 body{
     position: relative;
