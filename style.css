@@ -12,7 +12,7 @@ body::before{
     width:100%;
     top:0;
     left:0;
-    position: absolute;
+    position: fixed;
     z-index: -2;
     opacity: 0.4;
     background: url("photo_2022-10-01_17-38-08.jpg") no-repeat center center/cover;
